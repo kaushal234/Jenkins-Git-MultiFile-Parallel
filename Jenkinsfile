@@ -30,11 +30,11 @@ pipeline {
                     }
                 }
 
-                stage('Run Tests') {
-                    steps {
-                        sh '''
-                            python3 -m pytest test_app.py
-                        '''
+              stage('Run Tests') {
+                steps {
+                    sh '''
+                        python3 -m pytest test_app.py
+                    '''
                     }
                 }
 
