@@ -1,5 +1,4 @@
-import time
+from app import *
 
-print("Running Tests...")
-time.sleep(8)
-print("All Tests Passed")
+def test_demo():
+    assert 1 + 1 == 2
